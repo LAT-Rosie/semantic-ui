@@ -1,0 +1,12 @@
+{
+  "name": "circura-semantic-ui",
+  "version": "1.0.0",
+  "description": "Semantic-UI library customized for the Circura platform.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAT-Rosie/semantic-ui.git"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.3.1"
+  }
+}
