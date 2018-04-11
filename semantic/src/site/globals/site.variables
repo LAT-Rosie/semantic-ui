@@ -2,6 +2,11 @@
      User Global Variables
 *******************************/
 
+/* Fonts */
+@headerFont        : 'Roboto';
+@pageFont          : 'Roboto';
+@googleFontName    : 'Roboto';
+
 /* Colors */
 @primaryColor   : @teal;
 @secondaryColor : @orange;
