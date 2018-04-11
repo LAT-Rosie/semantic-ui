@@ -231,3 +231,4 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+!/semantic/dist/
