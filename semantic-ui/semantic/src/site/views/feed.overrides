@@ -1,0 +1,19 @@
+/*******************************
+     User Variable Overrides
+ *******************************/
+
+.ui.clock.feed {
+  font-size: 1.55rem;
+}
+
+.ui.clock.feed > .event > .content .date {
+  padding-bottom: .4rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.ui.clock.feed > .event > .content .summary {
+  line-height: 1.9rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 1);
+}

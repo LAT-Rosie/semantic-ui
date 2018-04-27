@@ -1,0 +1,29 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.sideMenu.button {
+   font-size: 2.75rem;
+ }
+
+.ui.topMenu.button {
+   font-size: 2.75rem;
+ }
+
+.ui.addItem.button {
+  font-size: 1.9rem
+}
+
+.ui.clockMenu.button {
+  font-size: 4rem;
+}
+
+.ui.volume.buttons .or {
+  width: 2.8rem;
+  font-size: 2rem;
+}
+
+.ui.volume.button {
+  font-size: 2rem;
+  width: 9.2rem;
+}
