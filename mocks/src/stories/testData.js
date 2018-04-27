@@ -1,9 +1,17 @@
 export const organization1 = {
-  rtsEnabled: true,
+  phoneEnabled: true,
   shiftsEnabled: true,
   careTasksEnabled: true,
   medTrackingEnabled: true,
 };
+
+export const organization2 = {
+  phoneEnabled: false,
+  shiftsEnabled: true,
+  careTasksEnabled: true,
+  medTrackingEnabled: true,
+};
+
 
 export const clientUser = {
   profileType: 'client',

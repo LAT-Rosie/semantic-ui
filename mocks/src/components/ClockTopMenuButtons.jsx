@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Button, Menu } from 'semantic-ui-react';
+import { filter } from 'lodash';
 
 class ClockTopMenuButtons extends Component {
-  static propTypes = {
-    organization: PropTypes.JSON.isRequired,
-  };
+  // static propTypes = {
+  //   phoneEnabled: PropTypes.boolean.isRequired,
+  // };
   render() {
     const buttonConfig = [
       { name: 'home', icon: 'home', color: 'teal' },
@@ -14,19 +15,17 @@ class ClockTopMenuButtons extends Component {
       { name: 'phone', icon: 'phone', color: 'green' },
       { name: 'login', icon: 'user', color: 'blue' },
     ];
-    const { organization } = this.props;
-    if (organization.rtsEnabled !== true) {
-
-
+    if (this.props.phoneEnabled !== true) {
+      const modifiedButtons = filter(buttonConfig, (b) => {
+        return b.name !== 'phone';
+      });
       return (
         <div>
           <Menu className="clockTop" widths="four" fixed="top" fluid inverted borderless>
-            {buttonConfig.map((button, index) => (
-              {if (button.name !== 'phone') {
-                <Menu.Item>
-                  <Button className="topMenu" icon={button.icon} color={button.color} circular />
-                </Menu.Item>
-              }}
+            {modifiedButtons.map(button => (
+              <Menu.Item>
+                <Button className="topMenu" icon={button.icon} color={button.color} circular/>
+              </Menu.Item>
             ))}
           </Menu>
         </div>
@@ -35,9 +34,9 @@ class ClockTopMenuButtons extends Component {
     return (
       <div>
         <Menu className="clockTop" widths="five" fixed="top" fluid inverted borderless>
-          {buttonConfig.map((button, index) => (
+          {buttonConfig.map(button => (
             <Menu.Item>
-              <Button className="topMenu" icon={button.icon} color={button.color} circular />
+              <Button className="topMenu" icon={button.icon} color={button.color} circular/>
             </Menu.Item>
           ))}
         </Menu>

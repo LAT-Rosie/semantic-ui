@@ -1,13 +1,17 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Header, Grid } from 'semantic-ui-react';
 import ClockTopMenuButtons from '../components/ClockTopMenuButtons';
 
 class DeviceClock extends Component {
-  }
+  // static propTypes = {
+  //   organization: PropTypes.object.isRequired,
+  // };
   render() {
+    const { phoneEnabled } = this.props.organization;
     return (
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'black', height: '100vh' }}>
-        <ClockTopMenuButtons />
+        <ClockTopMenuButtons phoneEnabled={phoneEnabled} />
         <Grid centered>
           <Grid.Row>
             <div style={{ height: '8rem' }} />
