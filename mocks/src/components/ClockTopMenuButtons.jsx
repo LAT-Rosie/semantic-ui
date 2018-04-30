@@ -4,14 +4,14 @@ import { Button, Menu } from 'semantic-ui-react';
 import { filter } from 'lodash';
 
 class ClockTopMenuButtons extends Component {
-  // static propTypes = {
-  //   phoneEnabled: PropTypes.boolean.isRequired,
+  // ClockTopMenuButtons.propTypes = {
+  //   phoneEnabled: PropTypes.boolean,
   // };
   render() {
     const buttonConfig = [
       { name: 'home', icon: 'home', color: 'teal' },
       { name: 'missedReminders', icon: 'alarm', color: 'red' },
-      { name: 'mute', icon: 'volume off', color: 'grey' },
+      { name: 'mute', icon: 'volume off', color: 'orange' },
       { name: 'phone', icon: 'phone', color: 'green' },
       { name: 'login', icon: 'user', color: 'blue' },
     ];
@@ -24,7 +24,7 @@ class ClockTopMenuButtons extends Component {
           <Menu className="clockTop" widths="four" fixed="top" fluid inverted borderless>
             {modifiedButtons.map(button => (
               <Menu.Item>
-                <Button className="topMenu" icon={button.icon} color={button.color} circular/>
+                <Button className="topMenu" icon={button.icon} color={button.color} circular />
               </Menu.Item>
             ))}
           </Menu>
@@ -36,7 +36,7 @@ class ClockTopMenuButtons extends Component {
         <Menu className="clockTop" widths="five" fixed="top" fluid inverted borderless>
           {buttonConfig.map(button => (
             <Menu.Item>
-              <Button className="topMenu" icon={button.icon} color={button.color} circular/>
+              <Button className="topMenu" icon={button.icon} color={button.color} circular />
             </Menu.Item>
           ))}
         </Menu>
