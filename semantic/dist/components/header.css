@@ -327,13 +327,13 @@ h5.ui.header .sub.header {
 /*--- Red ---*/
 
 .ui.red.header {
-  color: #B03060 !important;
+  color: #AE4348 !important;
 }
 a.ui.red.header:hover {
-  color: #a22554 !important;
+  color: #a0373c !important;
 }
 .ui.red.dividing.header {
-  border-bottom: 2px solid #B03060;
+  border-bottom: 2px solid #AE4348;
 }
 
 /* Inverted */
@@ -367,13 +367,13 @@ a.ui.inverted.orange.header:hover {
 /*--- Olive ---*/
 
 .ui.olive.header {
-  color: #32CD32 !important;
+  color: #213A3D !important;
 }
 a.ui.olive.header:hover {
-  color: #26bf26 !important;
+  color: #172b2d !important;
 }
 .ui.olive.dividing.header {
-  border-bottom: 2px solid #32CD32;
+  border-bottom: 2px solid #213A3D;
 }
 
 /* Inverted */
@@ -407,13 +407,13 @@ a.ui.inverted.yellow.header:hover {
 /*--- Green ---*/
 
 .ui.green.header {
-  color: #016936 !important;
+  color: #16A362 !important;
 }
 a.ui.green.header:hover {
-  color: #005129 !important;
+  color: #0d9355 !important;
 }
 .ui.green.dividing.header {
-  border-bottom: 2px solid #016936;
+  border-bottom: 2px solid #16A362;
 }
 
 /* Inverted */
@@ -447,13 +447,13 @@ a.ui.inverted.teal.header:hover {
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #52DFE3 !important;
+  color: #2F5889 !important;
 }
 a.ui.blue.header:hover {
-  color: #34e3e8 !important;
+  color: #254b7a !important;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #52DFE3;
+  border-bottom: 2px solid #2F5889;
 }
 
 /* Inverted */
@@ -487,13 +487,13 @@ a.ui.inverted.violet.header:hover {
 /*--- Purple ---*/
 
 .ui.purple.header {
-  color: #B413EC !important;
+  color: #3B203D !important;
 }
 a.ui.purple.header:hover {
-  color: #a707de !important;
+  color: #2c162d !important;
 }
 .ui.purple.dividing.header {
-  border-bottom: 2px solid #B413EC;
+  border-bottom: 2px solid #3B203D;
 }
 
 /* Inverted */
@@ -722,6 +722,24 @@ a.ui.inverted.grey.header:hover {
 
 
 /*******************************
-         Site Overrides
-*******************************/
+            Site Overrides
+   *******************************/
 
+.ui.clockName.header {
+  font-size: 2.3rem;
+}
+.ui.deviceDashboardTime.header {
+  font-size: 2.6rem;
+}
+.ui.dashboardCard.header {
+  font-size: 2.5rem;
+}
+.ui.mainClockTime.header {
+  font-size: 22rem;
+}
+.ui.mainClockAMPM.header {
+  font-size: 8rem;
+}
+.ui.mainClockDate.header {
+  font-size: 5.2rem;
+}

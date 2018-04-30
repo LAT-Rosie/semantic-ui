@@ -365,12 +365,12 @@
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #B03060;
-  -webkit-box-shadow: 0px 0px 0px 1px #B03060 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #B03060 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #AE4348;
+  -webkit-box-shadow: 0px 0px 0px 1px #AE4348 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #AE4348 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #9c2b55;
+  color: #9c3c40;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
@@ -419,12 +419,12 @@
 }
 .ui.blue.message {
   background-color: #DFF0FF;
-  color: #52DFE3;
-  -webkit-box-shadow: 0px 0px 0px 1px #52DFE3 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #52DFE3 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #2F5889;
+  -webkit-box-shadow: 0px 0px 0px 1px #2F5889 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #2F5889 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.blue.message .header {
-  color: #3cdbdf;
+  color: #284c76;
 }
 .ui.violet.message {
   background-color: #EAE7FF;
@@ -437,12 +437,12 @@
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #B413EC;
-  -webkit-box-shadow: 0px 0px 0px 1px #B413EC inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #B413EC inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #3B203D;
+  -webkit-box-shadow: 0px 0px 0px 1px #3B203D inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #3B203D inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #a211d4;
+  color: #2b172c;
 }
 .ui.pink.message {
   background-color: #FFE3FB;
