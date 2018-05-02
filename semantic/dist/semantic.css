@@ -4957,7 +4957,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   font-size: 2.75rem;
 }
 
-.ui.addItem.button {
+.ui.button.addItem {
   font-size: 1.9rem;
 }
 
@@ -7506,7 +7506,7 @@ a.ui.inverted.grey.header:hover {
             Site Overrides
    *******************************/
 
-.ui.clockName.header {
+.ui.deviceName.header {
   font-size: 2.3rem;
 }
 
@@ -29283,18 +29283,31 @@ a.ui.card:hover,
      User Variable Overrides
  *******************************/
 
-.ui.clock.feed {
-  font-size: 1.55rem;
+.ui.feed.activityFeed > .event {
+  padding-top: 1.3rem;
 }
 
-.ui.clock.feed > .event > .content .date {
+.ui.feed.activityFeed > .event:not(:last-child) {
+  padding-bottom: 1.3rem;
+  border-bottom-width: .08rem;
+  border-bottom-color: rgba(0, 0, 0, 0.4);
+  border-bottom-style: solid;
+}
+
+.ui.feed.activityFeed > .event > .label {
+  font-size: 2.3rem;
+}
+
+.ui.feed.activityFeed > .event > .content .date {
+  font-size: 1.9rem;
   padding-bottom: .4rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.9);
 }
 
-.ui.clock.feed > .event > .content .summary {
-  line-height: 1.9rem;
+.ui.feed.activityFeed > .event > .content .summary {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
   font-weight: normal;
   color: #000000;
 }

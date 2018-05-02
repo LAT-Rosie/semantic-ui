@@ -2,7 +2,7 @@
             Site Overrides
    *******************************/
 
-   .ui.clockName.header {
+   .ui.deviceName.header {
      font-size: 2.3rem;
    }
 
