@@ -2,7 +2,39 @@
     User Variable Overrides
 *******************************/
 
-.ui.cards > .card:active {
+.ui.card.dashboardCard:active {
+  -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 1px 1px 0px rgba(34, 36, 38, 0.12), 0px 2px 2px 0px rgba(34, 36, 38, 0.15);
+          box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 1px 1px 0px rgba(34, 36, 38, 0.12), 0px 2px 2px 0px rgba(34, 36, 38, 0.15);
+}
+
+.ui.card.dashboardCard .content .header {
+  font-size: 2.5rem;
+}
+
+.ui.cards .ui.card.settingsCard {
+  background: #107896;
+  box-shadow: 0 0 0 0;
+
+}
+
+.ui.cards .ui.card.settingsCard .content .header {
+  color: #F2F3F4;
+  font-size: 2.4rem;
+  padding: .25em 0 .2em 0;
+}
+
+.ui.cards .ui.card.settingsCard .content .meta {
+  font-size: 1.6rem;
+  padding: .15m 0 .25em 0;
+}
+
+.ui.cards .ui.card.settingsCard .content .description {
+  color: #F2F3F4;
+  font-size: 1.5rem;
+  padding: .3em 0 .2em 0;
+}
+
+.ui.card.settingsCard.clickable:active {
   -webkit-box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 1px 1px 0px rgba(34, 36, 38, 0.12), 0px 2px 2px 0px rgba(34, 36, 38, 0.15);
           box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 1px 1px 0px rgba(34, 36, 38, 0.12), 0px 2px 2px 0px rgba(34, 36, 38, 0.15);
 }

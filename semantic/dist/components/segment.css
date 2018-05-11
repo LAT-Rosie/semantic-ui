@@ -815,3 +815,6 @@
          Site Overrides
 *******************************/
 
+.ui.attached.segment.deviceSettings {
+  background: #0b3049;
+}

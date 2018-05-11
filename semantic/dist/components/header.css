@@ -743,3 +743,7 @@ a.ui.inverted.grey.header:hover {
 .ui.mainClockDate.header {
   font-size: 5.2rem;
 }
+.ui.header.deviceTopDateTime {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}

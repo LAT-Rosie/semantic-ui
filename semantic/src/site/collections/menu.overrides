@@ -1,7 +1,15 @@
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.clockTop.menu {
+.ui.menu.clockTop {
   font-size: 3rem;
+}
+
+.ui.secondary.pointing.menu.topTabMenu {
+ font-size: 1.4rem;
+}
+
+.ui.secondary.pointing.menu.topTabMenu .active.item {
+  border-bottom-width: .4em;
+  border-color: @orange;
 }
