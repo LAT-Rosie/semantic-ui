@@ -7,7 +7,7 @@
 }
 
 .ui.deviceDashboardTime.header {
- font-size: 2.6rem;
+ font-size: 2.4rem;
 }
 
 .ui.dashboardCard.header {
@@ -15,11 +15,18 @@
 }
 
 .ui.mainClockTime.header {
- font-size: 22rem;
+ font-size: 24rem;
+ padding-left: 0;
+ padding-right: 0;
+ margin-left: 0;
+ margin-right: 0;
+ margin-bottom: 0;
+ margin-top: -.2em;
 }
 
 .ui.mainClockAMPM.header {
- font-size: 8rem;
+ font-size: 10rem;
+ margin-bottom: 0;
 }
 
 .ui.mainClockDate.header {
@@ -30,4 +37,3 @@
  font-size: 3.11rem;
  padding-bottom: 1rem;
 }
-
