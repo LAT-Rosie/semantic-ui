@@ -19,7 +19,7 @@ body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
   margin: 0px;
@@ -28,9 +28,9 @@ body {
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
   font-smoothing: antialiased;
 }
 
@@ -125,32 +125,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 /* Force Simple Scrollbars */

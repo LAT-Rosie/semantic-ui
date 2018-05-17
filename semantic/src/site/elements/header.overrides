@@ -27,7 +27,7 @@
 }
 
 .ui.header.deviceTopDateTime {
- font-size: 3.5rem;
+ font-size: 3.11rem;
  padding-bottom: 1rem;
 }
 

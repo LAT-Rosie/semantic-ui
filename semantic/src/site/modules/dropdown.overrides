@@ -1,3 +1,8 @@
 /*******************************
         User Overrides
 *******************************/
+
+.ui.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: rgba(0, 0, 0, .65);
+}
