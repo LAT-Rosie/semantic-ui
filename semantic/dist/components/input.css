@@ -517,9 +517,8 @@
          Site Overrides
 *******************************/
 
-.field .loginPinForm {
-  max-width: 72%;
-}
+
+/* Global change to placeholder font color for increased contrast */
 .ui.input > input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.65);
 }

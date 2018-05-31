@@ -651,13 +651,14 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #52DFE3;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e70bf;
-  text-decoration: none;
+  color: #11eff5;
+  -webkit-text-decoration: true;
+  text-decoration: true;
 }
 
 /*******************************
@@ -4948,27 +4949,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.button.sideMenu {
-  font-size: 2.8rem;
-}
-
-.ui.menu:not(.vertical) .item > .button.topMenu {
-  padding: .6875em;
-  font-size: 4rem;
-}
-
-.ui.button.addItem {
-  font-size: 1.9rem;
-}
-
-.ui.button.clockMenu {
-  font-size: 3.5rem;
-}
-
-.ui.button.topHeader {
-  font-size: 2.8rem;
-}
 /*!
  * # Semantic UI 2.3.1 - Container
  * http://github.com/semantic-org/semantic-ui/
@@ -7500,42 +7480,6 @@ a.ui.inverted.grey.header:hover {
 /*******************************
             Site Overrides
    *******************************/
-
-.ui.deviceName.header {
-  font-size: 2.3rem;
-}
-
-.ui.deviceDashboardTime.header {
-  font-size: 2.4rem;
-}
-
-.ui.dashboardCard.header {
-  font-size: 2.5rem;
-}
-
-.ui.mainClockTime.header {
-  font-size: 24rem;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: -0.2em;
-}
-
-.ui.mainClockAMPM.header {
-  font-size: 10rem;
-  margin-bottom: 0;
-}
-
-.ui.mainClockDate.header {
-  font-size: 5.2rem;
-}
-
-.ui.header.deviceTopDateTime {
-  font-size: 3.11rem;
-  padding-bottom: 1rem;
-}
 /*!
  * # Semantic UI 2.3.1 - Icon
  * http://github.com/semantic-org/semantic-ui/
@@ -14559,9 +14503,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 
-.field .loginPinForm {
-  max-width: 72%;
-}
+/* Global change to placeholder font color for increased contrast */
 
 .ui.input > input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.65);
@@ -15752,7 +15694,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #11eff5;
   -webkit-box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -16222,12 +16164,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #52DFE3;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Linked Item Icons */
@@ -16242,12 +16184,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #52DFE3 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #11eff5 !important;
 }
 
 /* Floated Content */
@@ -16423,7 +16365,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Linking Content */
@@ -16433,7 +16375,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #11eff5 !important;
 }
 
 /*-------------------
@@ -18852,10 +18794,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.attached.segment.deviceSettings {
-  background: #0b3049;
-}
 /*!
  * # Semantic UI 2.3.1 - Step
  * http://github.com/semantic-org/semantic-ui/
@@ -19251,7 +19189,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #52DFE3;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -19593,11 +19531,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #4183C4;
+  color: #52DFE3;
 }
 
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Icon Divider */
@@ -20856,6 +20794,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
+
+/* Global change to placeholder font color for increased contrast */
 
 .ui.form ::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.65);
@@ -25484,19 +25424,6 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.menu.clockTop {
-  font-size: 3rem;
-}
-
-.ui.secondary.pointing.menu.topTabMenu {
-  font-size: 1.4rem;
-}
-
-.ui.secondary.pointing.menu.topTabMenu .active.item {
-  border-bottom-width: .4em;
-  border-color: #FF772B;
-}
 /*!
  * # Semantic UI 2.3.1 - Message
  * http://github.com/semantic-org/semantic-ui/
@@ -27984,7 +27911,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Meta */
@@ -28104,7 +28031,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /*******************************
@@ -28758,47 +28685,6 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-
-.ui.card.dashboardCard:active {
-  -webkit-box-shadow: 0px 0px 0px 3px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 0px 0px 3px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-}
-
-.ui.card.dashboardCard .content .header {
-  font-size: 2.5rem;
-}
-
-.ui.cards .ui.card.dashboardCard .content .description {
-  color: #FFFFFF;
-  font-size: 1.25rem;
-}
-
-.ui.cards .ui.card.settingsCard,
-.ui.card.dashboardCard {
-  background: #107896;
-  -webkit-box-shadow: 0 0 0 0;
-  box-shadow: 0 0 0 0;
-}
-
-.ui.cards .ui.card.settingsCard .content .header {
-  color: #F2F3F4;
-  font-size: 2rem;
-}
-
-.ui.cards .ui.card.settingsCard .content .meta {
-  font-size: 2.5rem;
-  padding: .4em 0 0 0;
-}
-
-.ui.cards .ui.card.settingsCard .content .description {
-  color: #F2F3F4;
-  font-size: 1.125rem;
-}
-
-.ui.card.settingsCard.clickable:active {
-  -webkit-box-shadow: 0px 0px 0px 2px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 0px 0px 2px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-}
 /*!
  * # Semantic UI 2.3.1 - Comment
  * http://github.com/semantic-org/semantic-ui/
@@ -28920,7 +28806,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /*--------------
@@ -29398,35 +29284,6 @@ a.ui.card:hover,
 /*******************************
      User Variable Overrides
  *******************************/
-
-.ui.feed.activityFeed > .event {
-  padding-top: 1.35rem;
-}
-
-.ui.feed.activityFeed > .event:not(:last-child) {
-  padding-bottom: 1.35rem;
-  border-bottom-width: .09rem;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  border-bottom-style: solid;
-}
-
-.ui.feed.activityFeed > .event > .label {
-  font-size: 2.3rem;
-}
-
-.ui.feed.activityFeed > .event > .content .date {
-  font-size: 1.9rem;
-  padding-bottom: .4rem;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.ui.feed.activityFeed > .event > .content .summary {
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  font-weight: normal;
-  color: #000000;
-}
 /*!
  * # Semantic UI 2.3.1 - Item
  * http://github.com/semantic-org/semantic-ui/
@@ -29688,7 +29545,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Meta */
@@ -29919,7 +29776,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /*--------------
@@ -33422,6 +33279,8 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+
+/* Global change to default text font color for increased contrast */
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {

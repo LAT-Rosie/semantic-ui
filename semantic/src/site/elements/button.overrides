@@ -1,25 +1,3 @@
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.button.sideMenu {
-  font-size: 2.8rem;
-}
-
-.ui.menu:not(.vertical) .item>.button.topMenu {
-  padding: .6875em;
-  font-size: 4rem;
-
-}
-
-.ui.button.addItem {
-  font-size: 1.9rem;
-}
-
-.ui.button.clockMenu {
-  font-size: 3.5rem;
-}
-
-.ui.button.topHeader {
-  font-size: 2.8rem;
-}

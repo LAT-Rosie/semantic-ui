@@ -293,27 +293,3 @@
      User Variable Overrides
  *******************************/
 
-.ui.feed.activityFeed > .event {
-  padding-top: 1.35rem;
-}
-.ui.feed.activityFeed > .event:not(:last-child) {
-  padding-bottom: 1.35rem;
-  border-bottom-width: .09rem;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  border-bottom-style: solid;
-}
-.ui.feed.activityFeed > .event > .label {
-  font-size: 2.3rem;
-}
-.ui.feed.activityFeed > .event > .content .date {
-  font-size: 1.9rem;
-  padding-bottom: .4rem;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.9);
-}
-.ui.feed.activityFeed > .event > .content .summary {
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  font-weight: normal;
-  color: #000000;
-}

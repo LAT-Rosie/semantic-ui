@@ -725,32 +725,3 @@ a.ui.inverted.grey.header:hover {
             Site Overrides
    *******************************/
 
-.ui.deviceName.header {
-  font-size: 2.3rem;
-}
-.ui.deviceDashboardTime.header {
-  font-size: 2.4rem;
-}
-.ui.dashboardCard.header {
-  font-size: 2.5rem;
-}
-.ui.mainClockTime.header {
-  font-size: 24rem;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: -0.2em;
-}
-.ui.mainClockAMPM.header {
-  font-size: 10rem;
-  margin-bottom: 0;
-}
-.ui.mainClockDate.header {
-  font-size: 5.2rem;
-}
-.ui.header.deviceTopDateTime {
-  font-size: 3.11rem;
-  padding-bottom: 1rem;
-}

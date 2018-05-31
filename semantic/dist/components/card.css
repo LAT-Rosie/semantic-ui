@@ -307,7 +307,7 @@
 }
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 /* Meta */
@@ -420,7 +420,7 @@
 }
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #11eff5;
 }
 
 
@@ -995,36 +995,3 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 
-.ui.card.dashboardCard:active {
-  -webkit-box-shadow: 0px 0px 0px 3px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 0px 0px 3px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-}
-.ui.card.dashboardCard .content .header {
-  font-size: 2.5rem;
-}
-.ui.cards .ui.card.dashboardCard .content .description {
-  color: #FFFFFF;
-  font-size: 1.25rem;
-}
-.ui.cards .ui.card.settingsCard,
-.ui.card.dashboardCard {
-  background: #107896;
-  -webkit-box-shadow: 0 0 0 0;
-          box-shadow: 0 0 0 0;
-}
-.ui.cards .ui.card.settingsCard .content .header {
-  color: #F2F3F4;
-  font-size: 2rem;
-}
-.ui.cards .ui.card.settingsCard .content .meta {
-  font-size: 2.5rem;
-  padding: .4em 0 0 0;
-}
-.ui.cards .ui.card.settingsCard .content .description {
-  color: #F2F3F4;
-  font-size: 1.125rem;
-}
-.ui.card.settingsCard.clickable:active {
-  -webkit-box-shadow: 0px 0px 0px 2px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 0px 0px 2px #D4D4D5, 0px 3px 3px 0px rgba(34, 36, 38, 0.12), 0px 5px 5px 0px rgba(34, 36, 38, 0.15);
-}

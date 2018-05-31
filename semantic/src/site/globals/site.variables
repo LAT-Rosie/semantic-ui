@@ -27,3 +27,9 @@
 @brown: #A52A2A;
 @grey: #EEEEEE;
 @black: #000000;
+
+/* Links */
+@linkColor           : #52DFE3;
+@linkUnderline       : none;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverUnderline  : true;
