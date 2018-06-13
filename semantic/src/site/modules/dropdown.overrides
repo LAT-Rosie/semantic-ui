@@ -1,3 +1,9 @@
 /*******************************
         User Overrides
 *******************************/
+
+/* Global change to default text font color for increased contrast */
+.ui.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: rgba(0, 0, 0, .65);
+}

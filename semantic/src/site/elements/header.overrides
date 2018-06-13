@@ -1,27 +1,3 @@
 /*******************************
             Site Overrides
    *******************************/
-
-   .ui.deviceName.header {
-     font-size: 2.3rem;
-   }
-
-   .ui.deviceDashboardTime.header {
-     font-size: 2.6rem;
-   }
-
-   .ui.dashboardCard.header {
-     font-size: 2.5rem;
-   }
-
-   .ui.mainClockTime.header {
-     font-size: 22rem;
-   }
-
-   .ui.mainClockAMPM.header {
-     font-size: 8rem;
-   }
-
-   .ui.mainClockDate.header {
-     font-size: 5.2rem;
-   }

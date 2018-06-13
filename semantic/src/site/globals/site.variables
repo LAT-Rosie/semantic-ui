@@ -3,23 +3,33 @@
 *******************************/
 
 /* Fonts */
-@headerFont        : 'Roboto';
-@pageFont          : 'Roboto';
-@googleFontName    : 'Roboto';
+@emSize: 16px;
+@fontSize: 16px;
+@fontName: 'Roboto';
+@headerFont: @fontName;
+@pageFont: @fontName;
+@googleFontName: @fontName;
 
 /* Colors */
-@primaryColor   : @teal;
-@secondaryColor : @orange;
-@red            : #AE4348;
-@orange         : #FF772B;
-@yellow         : #FFD700;
-@olive          : #213A3D;
-@green          : #16A362;
-@teal           : #1695A3;
-@blue           : #2F5889;
-@violet         : #EE82EE;
-@purple         : #3B203D;
-@pink           : #D93779;
-@brown          : #A52A2A;
-@grey           : #A0A0A0;
-@black          : #000000;
+@primaryColor: @teal;
+@secondaryColor: @orange;
+@textColor: rgba(0, 0, 0, .95);
+@red: #AE4348;
+@orange: #FF772B;
+@yellow: #FFD700;
+@olive: #213A3D;
+@green: #16A362;
+@teal: #1695A3;
+@blue: #2F5889;
+@violet: #EE82EE;
+@purple: #3B203D;
+@pink: #D93779;
+@brown: #A52A2A;
+@grey: #EEEEEE;
+@black: #000000;
+
+/* Links */
+@linkColor           : #52DFE3;
+@linkUnderline       : none;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverUnderline  : true;
